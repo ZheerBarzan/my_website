@@ -1,16 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:my_website/palette.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 void main() {
   runApp(const MyApp());
 }
-class Palette {
-  static const Color background = Colors.black;
-  static const Color surface = Color(0xFF111111);
-  static const Color primaryRed = Color(0xFFE50914);
-  static const Color text = Colors.white;
-  static const Color muted = Colors.white70;
-}
+
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
